@@ -11,11 +11,11 @@ class Humano
 
 	public function descripcion($valor)
 	{
-		echo '<h1>Descripción</h1>';
-		echo '<h2>Nombre: </h2>'.$valor->getNombre();
-   		echo '<h2>Apellidos: </h2>'.$valor->getApellidos();
-   		echo '<h2>Edad: </h2>'.$valor->getEdad().' años';
-    	echo '<h2>Género: </h2>'.$valor->getGenero();
+		'<h1>Descripción</h1>';
+		'<h2>Nombre: </h2>';
+   		'<h2>Apellidos: </h2>';
+   		'<h2>Edad: </h2>';
+    	'<h2>Género: </h2>';
 	}
 
 	//GETTERS AND SETTERS
