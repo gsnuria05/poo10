@@ -9,8 +9,9 @@ class Humano
 
 	//CREACIÓN DE FUNCIÓN
 
-	public function descripcion($valor)
+	public function descripcion()
 	{
+		return
 		'<h1>Descripción</h1>';
 		'<h2>Nombre: </h2>';
    		'<h2>Apellidos: </h2>';

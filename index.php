@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejercicio POO Individual 4 (Herrencia)</title>
+    <title>Ejercicio POO Individual 10</title>
 </head>
 <body>
 
@@ -135,11 +135,20 @@ echo '<hr>';
 
 if(isset($_POST['mujer1']))
 {
-    echo $mujer1->descripcion($mujer1);
+    echo $mujer1->descripcion();
 }
 elseif(isset($_POST['hombre1']))
 {
-    echo $hombre1->descripcion($hombre1);
+    echo $hombre1->descripcion();
+}
+
+if(isset($_POST['mujer2']))
+{
+    echo $mujer2->descripcion();
+}
+elseif(isset($_POST['hombre2']))
+{
+    echo $hombre2->descripcion();
 }
 
 ?>
